@@ -28,7 +28,7 @@ class ProfileUpdateInfo extends Model
         $this->_user = $user;
         $this->gender = $user->gender;
         $this->info = $user->info;
-        $user->login = $this->login;
+        $this->login = $user->login;
         parent::__construct($config);
     }
 
